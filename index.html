@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/f370b3c9fb.js" crossorigin="anonymous"></script>
+    <title>Weight Converter</title>
+
+
+</head>
+<body>
+    <div class="container m-auto">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mt-5"><i class="fas fa-weight"></i>Weight Conveter</h1>
+                <form class="form-control mt-3">
+                    <input type="number" class="form-control form-control-lg" placeholder="Enter Kilograms..." id="kiloInput">
+                </form>
+                <div id="output" class="mt-3">
+                    <div class="card card-primary p-3 rounded">
+                        <div class="card-block">
+                            <h4>Grams:</h4>
+                            <div id="gramsOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card card-success p-3 rounded">
+                        <div class="card-block">
+                            <h4>Pounds:</h4>
+                            <div id="lbsOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card card-danger p-3 rounded">
+                        <div class="card-block">
+                            <h4>Ounces:</h4>
+                            <div id="ozOutput"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
